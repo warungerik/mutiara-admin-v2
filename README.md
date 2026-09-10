@@ -8,18 +8,6 @@
 
 Template dashboard admin web modern berbasis Laravel Blade, Tailwind CSS v4.
 
----
-
-## Teknologi Utama
-
-- **Laravel** (`laravel/framework`) — Framework Backend & Templating Blade.
-- **Tailwind CSS v4** (`tailwindcss`, `@tailwindcss/vite`) — Framework CSS utility-first.
-- **Vite** (`vite`, `laravel-vite-plugin`) — Asset bundler & HMR server.
-- **Motion** (`motion`) — Micro-animation & transisi UI.
-- **SweetAlert2** (`sweetalert2`) — Dialog konfirmasi dan notifikasi toast.
-
----
-
 ## Modul & Halaman
 
 - **Dashboard Utama** (`/admin/dashboard`) — Ringkasan metrik, grafik performa, dan aktivitas terbaru.
