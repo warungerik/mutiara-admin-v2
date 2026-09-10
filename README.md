@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38BDF8?logo=tailwindcss)](https://tailwindcss.com)
 [![Vite](https://img.shields.io/badge/Vite-6.x%2F8.x-646CFF?logo=vite)](https://vitejs.dev)
 
-Template dashboard admin web modern berbasis Laravel Blade, Tailwind CSS v4, dan SweetAlert2. Dirancang responsif untuk desktop dan perangkat seluler.
+Template dashboard admin web modern berbasis Laravel Blade, Tailwind CSS v4.
 
 ---
 
@@ -39,7 +39,7 @@ Template dashboard admin web modern berbasis Laravel Blade, Tailwind CSS v4, dan
 webadmin/
 ├── app/
 │   └── Http/
-│       └── Controllers/        # Logic Controller (Admin, User, Notification)
+│       └── Controllers/        # Logic Controller
 ├── bootstrap/                  # Inisialisasi aplikasi Laravel
 ├── config/                     # Berkas konfigurasi Laravel
 ├── database/
@@ -51,8 +51,8 @@ webadmin/
 │   ├── css/
 │   │   └── app.css             # Konfigurasi Tailwind v4 & custom styles
 │   ├── js/
-│   │   ├── app.js              # Interaktivitas UI & helper SweetAlert2
-│   │   └── bootstrap.js        # Setup Axios / client HTTP
+│   │   ├── app.js              # Interaktivitas
+│   │   └── bootstrap.js        # Setup Axios
 │   └── views/
 │       ├── admin/              # Modul admin (dashboard, users, notifications, dll)
 │       ├── auth/               # Halaman autentikasi (login, register)
@@ -60,7 +60,7 @@ webadmin/
 │       └── layouts/            # Master layout Blade (admin, auth)
 ├── routes/
 │   └── web.php                 # Web routes aplikasi
-├── tests/                      # Suite pengujian unit & fitur (PHPUnit)
+├── tests/                      # Suite pengujian unit & fitur
 └── vite.config.js              # Konfigurasi Vite & Laravel plugin
 ```
 
@@ -83,7 +83,7 @@ composer install
 npm install
 ```
 
-### 2. Konfigurasi Environment
+### 2. Environment
 
 ```bash
 cp .env.example .env
@@ -101,10 +101,7 @@ php artisan migrate --seed
 Buka dua terminal terpisah:
 
 ```bash
-# Terminal 1: Application Server
 php artisan serve
-
-# Terminal 2: Asset HMR Bundler
 npm run dev
 ```
 
