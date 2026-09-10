@@ -7,7 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.x%2F8.x-646CFF?logo=vite)](https://vitejs.dev)
 
 Template dashboard admin web modern berbasis Laravel Blade, Tailwind CSS v4.
-
+> Live demo: [https://mutiara-adminv2.freetemplate.my.id/](https://mutiara-adminv2.freetemplate.my.id/)
 ## Modul & Halaman
 
 - **Dashboard Utama** (`/admin/dashboard`) — Ringkasan metrik, grafik performa, dan aktivitas terbaru.
