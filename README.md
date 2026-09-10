@@ -77,8 +77,8 @@ webadmin/
 ### 1. Clone Repositori & Install Dependensi
 
 ```bash
-git clone https://github.com/warungerik/webadmin.git
-cd webadmin
+git clone https://github.com/warungerik/mutiara-admin-v2.git
+cd mutiara-admin-v2
 composer install
 npm install
 ```
