@@ -109,6 +109,10 @@ Proyek ini dirilis di bawah [MIT License](./LICENSE).
 
 ---
 
-## Pengembang & Dukungan
+## Dukungan
 
-Dikembangkan oleh [warungerik.com](https://warungerik.com).
+Jika proyek ini bermanfaat bagi Anda atau membantu mempercepat pengembangan aplikasi Anda, dukung pengembang melalui:
+
+<a href="https://warungerik.com/payment" target="_blank">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+</a>
